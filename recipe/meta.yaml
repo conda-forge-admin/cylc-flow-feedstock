@@ -88,7 +88,6 @@ outputs:
         - python >={{ python_min }}
         - {{ pin_subpackage(name + "-base", exact=True) }}
         # Dependencies for the `pip install` command above:
-        - empy >=3.3,<3.4
         # static graphing
         - graphviz
         - pillow
